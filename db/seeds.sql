@@ -1,10 +1,10 @@
-INSERT INTO departments (name)
+INSERT INTO department (department_name)
 VALUES
   ('Director'),
   ('Management'),
   ('Team');
 
-INSERT INTO roles (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES
     
   ('Store Director', 30000, 1),
@@ -17,18 +17,18 @@ VALUES
   ('Stocker', 25000, 3),
   ('Folder', 50000, 3);
 
-INSERT INTO employees (first_name, last_name, roles_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
-  ('Francis', 'Smith', 1, NULL),
+  ('Sarah', 'Grabbe', 1, NULL),
 
-  ('Jasmine', 'Rodriguez', 2, 1),
+  ('Glenn', 'Mccoy', 2, 1),
 
-  ('Lucille', 'Brown', 3, 1),
+  ('Surrey', 'Valdez', 3, 1),
 
-  ('Khadeeja', 'Simmons', 4, 1),
+  ('Bryce', 'Tiller', 4, 1),
 
-  ('Evelyn', 'Sanchez', 5, 2),
+  ('Manny', 'Lopez', 5, 2),
 
-  ('Buba', 'Smith', 6, 3),
+  ('Matthew', 'King', 6, 3),
 
-  ('Chad', 'Gilbert', 7, 4);
+  ('Rebecca', 'English', 7, 4);
